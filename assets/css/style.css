@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+#course-content > h2{
+    margin: 0;
+}
+
+
+#Titulo-header{
+    text-transform: uppercase;
+    color: #2692cd;
+}
+
+.banner-content{
+    border: 1px solid #33a8db;
+}
+
+#botao-header{
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    color: #2692cd;
+    border: 2px solid #2692cd;
+    cursor: pointer;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.815);
+    background-image: url(/assets/images/banner.png), linear-gradient(rgba(0, 0, 0, 0.027), rgba(0, 0, 255, 0.089), rgba(0, 0, 0, 0.027));
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+
+
+#course-content{
+    background-color: black;
+    text-align: center;
+}
+
+#course-content > h2{
+    color: #33a8db;
+}
+
+span{
+  color: #33a8db;
+}
+
+.modules-list{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.module {
+    border: 1px solid #33a8db;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px; 
+
+}
+
+#transform-world{
+    border: 1px solid #2692cd;
+    text-align: left;
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#transform-world > p{
+    color: #ffffff;
+}
