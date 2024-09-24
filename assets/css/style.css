@@ -35,9 +35,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-   
 }
-
 
 #course-content{
     background-color: black;
@@ -67,14 +65,39 @@ span{
 }
 
 #transform-world{
-    border: 1px solid #2692cd;
-    text-align: left;
+    border: 1px solid ;
     background-image: url(/assets/images/woman-code.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
 }
 
 #transform-world > p{
-    color: #ffffff;
+    color: white;
+    margin-left: 200px;
+    font-size: 30px;
+    margin-top: 250px;
+    text-shadow: #2692cd 0.1em 0.1em 0.2em;
+}
+
+#professional-challenges{
+    text-align: center;
+    background-color: black;
+    border: 2px solid #2692cd;
+}
+
+#professional-challenges > h2{
+    color: #33a8db;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: auto;
+    height: 80px;
+    padding: 20px;
+}
+
+footer > p{
+    margin: 0;
 }
